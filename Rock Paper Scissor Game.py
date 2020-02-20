@@ -9,18 +9,18 @@ def rockpaperscissors():
 
     if powerplayerA == powerplayerB:
         print("Its a tie!")
-    elif powerplayerA == "Rock":
-        if powerplayerB == "Scissors":
+    elif powerplayerA == "rock":
+        if powerplayerB == "scissors":
             print(playerA + "wins!")
         else:
             print(playerB + "wins!")
-    elif powerplayerA == "Paper":
-        if powerplayerB == "Rock":
+    elif powerplayerA == "paper":
+        if powerplayerB == "rock":
             print(playerA + "wins!")
         else:
             print(playerB + "wins!")
-    elif powerplayerA == "Scissors":
-        if powerplayerB == "Paper":
+    elif powerplayerA == "scissors":
+        if powerplayerB == "paper":
             print(playerA + "wins!")
         else:
             print(playerB + "wins!")
