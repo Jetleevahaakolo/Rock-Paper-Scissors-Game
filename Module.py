@@ -2,18 +2,13 @@
 import sys 
 import getpass
 
-def title(title):
+playerA = str(input("Player A, please enter your name "))
+playerB = str(input("Player B, please enter your name "))
+
+def title():
     print("Welcome to rock, paper, scissors!")
     
 def rockpaperscissors():
-    
-    start = True
-
-    if start == True:
-        playerA = str(input("Player A, please enter your name "))
-        playerB = str(input("Player B, please enter your name "))
-        start = False
-
     print(playerA + " please choose your power: Rock, Paper or Scissors? ")
     powerplayerA = getpass.getpass("Answer ::")
     print(playerB + " please choose your power: Rock, Paper or Scissors? ")
@@ -43,7 +38,7 @@ def rockpaperscissors():
 def playagain():
     again = str(input("Would you like to play again? Y/N? "))
 
-    if again == "Y":
+    if again == "y":
         rockpaperscissors()
-    if again == "N":
+    if again == "n":
         sys.exit()
