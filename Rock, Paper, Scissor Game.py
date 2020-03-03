@@ -1,8 +1,5 @@
 import sys
 import getpass
-import Module
-# variable
-game = True
 
 # print title
 print("Welcome to rock, paper, scissors!")
@@ -23,23 +20,22 @@ def game():
         print(" Its a tie!")
     elif powerplayerA == 1:
         if powerplayerB == 3:
-            print(playerA + " wins!")
+            print("Congrats "+ playerA + "You are the Winner!")
         else:
-            print(playerB + " wins!")
+            print("Congrats "+ playerB + "You are the Winner!")
     elif powerplayerA == 2:
         if powerplayerB == 1:
-            print(playerA + " wins!")
+            print("Congrats "+ playerA + "You are the Winner!")
         else:
-            print(playerB + " wins!")
+            print("Congrats "+ playerB + "You are the Winner!")
     elif powerplayerA == 3:
         if powerplayerB == 2:
-            print(playerA + " wins!")
+            print("Congrats "+ playerA + "You are the Winner!")
         else:
-            print(playerB + " wins!")
-
+            print("Congrats "+ playerB + "You are the Winner!")
     reset()
             
-    # restart
+# restart
 def reset():
     again = str(input("Would you like to play again? Y/N? "))
 
@@ -47,5 +43,4 @@ def reset():
         game()
     if again == "n":
         sys.exit()
-
 game()
