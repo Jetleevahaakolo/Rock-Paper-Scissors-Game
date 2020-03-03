@@ -2,7 +2,7 @@
 import sys 
 import getpass
 
-def title(title):
+def title():
     print("Welcome to rock, paper, scissors!")
     
 def rockpaperscissors():
