@@ -3,7 +3,7 @@ import sys
 import getpass
 
 def title(title):
-    return title = print("Welcome to rock, paper, scissors!")
+    print("Welcome to rock, paper, scissors!")
     
 def rockpaperscissors():
     
