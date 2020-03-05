@@ -10,9 +10,9 @@ playerB = str(input("Player B, please enter your name "))
 
 def game():
     # select power
-    print(playerA + " please choose your power: 1 = Rock, 2 = Paper or 3 = Scissors? ")
+    print(playerA + " please choose your power: 1 = rock, 2 = paper or 3 = scissors? ")
     powerplayerA = int(getpass.getpass("Answer ::"))
-    print(playerB + " please choose your power: 1 = Rock, 2 = Paper or 3 = Scissors? ")
+    print(playerB + " please choose your power: 1 = rock, 2 = paper or 3 = scissors? ")
     powerplayerB = int(getpass.getpass("Answer ::"))
 
     # game logic
