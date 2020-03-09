@@ -43,4 +43,6 @@ def reset():
         game()
     if again == "n":
         sys.exit()
+    return again
+
 game()
